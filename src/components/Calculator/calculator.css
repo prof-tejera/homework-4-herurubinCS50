@@ -1,0 +1,10 @@
+
+
+.numerical-inputs{
+    flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    border-radius: 1rem;
+    overflow: hidden;
+}

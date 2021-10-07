@@ -1,5 +1,7 @@
 import { Component } from 'react';
 import styled from 'styled-components';
+import PropTypes from 'prop-types';
+
 
 const Container = styled.div`
   padding: 10px;
@@ -16,5 +18,11 @@ class Operator extends Component {
     );
   }
 }
+
+Operator.propTypes = {
+  value : PropTypes.number.isRequired
+}
+
+
 
 export default Operator;
