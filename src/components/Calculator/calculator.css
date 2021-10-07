@@ -8,3 +8,14 @@
     border-radius: 1rem;
     overflow: hidden;
 }
+
+.screen-output{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: 'Urbanist', sans-serif;
+    font-size: 3rem;
+}

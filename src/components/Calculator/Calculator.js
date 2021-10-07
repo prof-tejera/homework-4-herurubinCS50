@@ -51,7 +51,7 @@ class Calculator extends Component {
   render() {
     return (
       <>
-        <Screen value={this.getScreenValue()} />
+        <Screen classes="screen-output" value={this.getScreenValue()} />
         <div className="calcu-face" style={{ display: "flex" }}>
           <div className="numerical-inputs">
             <Number width={this.settings.numericalBtnWidth} value={1} onClick={this.handleNumberClick} />

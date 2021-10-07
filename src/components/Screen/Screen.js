@@ -14,10 +14,10 @@ const Container = styled.div`
 
 class Screen extends Component {
   render() {
-    return <Container >
-        <div className="display-text">
+    return <Container className={this.props.classes}  >
+
             {this.props.value}
-        </div>
+
       </Container>;
   }
 }
