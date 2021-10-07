@@ -1,0 +1,17 @@
+.number{
+    font-family: 'Urbanist';
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    user-select: none;
+}
+
+.number:active{
+    background-color: white;
+    color: black;
+    box-shadow: inset 0px 0px 15px 5px rgba(0,0,0,0.5);
+    border-radius: 5rem;
+    text-align: center;
+    font-weight: 800;
+}
